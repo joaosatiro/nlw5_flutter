@@ -1,5 +1,3 @@
-import 'package:DevQuiz/challenge/challenge_page.dart';
-import 'package:DevQuiz/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
 import 'home/home_page.dart';
@@ -26,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ChallengePage(),
+      home: HomePage()
     );
   }
 }
